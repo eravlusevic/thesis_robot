@@ -1,0 +1,30 @@
+[
+  {
+    "id": "test_voice",
+    "type": "narrative",
+    "thread": "test",
+    "position": 1,
+
+    "characters": {
+      "Narrator": {
+        "voice_settings": {
+        "voice_id": "bD9maNcCuQQS75DGuteM"
+        }
+      }
+    },
+
+    "moves": [
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "Hello. This is a test of Eleven Labs."
+      },
+
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "If you can hear a natural sounding voice, the integration works."
+      }
+    ]
+  }
+]

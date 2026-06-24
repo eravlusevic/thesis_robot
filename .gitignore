@@ -46,3 +46,22 @@ demos/nardial/tts_cache/*
 # Ignore local_test_sync_folder
 demos/desktop/local_test_sync_folder
 
+# Local development files
+venv_sic/
+__pycache__/
+*.pyc
+.env
+
+# thesis_robot generated runtime files
+demos/nardial/thesis_robot/participants/
+demos/nardial/thesis_robot/logs/
+demos/nardial/thesis_robot/tts_cache/
+
+# macOS metadata files
+.DS_Store
+
+# API keys
+*.env
+.elevenlabs_env
+
+

@@ -1,0 +1,2222 @@
+[
+  {
+    "id": "welcome_and_name",
+    "type": "narrative",
+    "thread": "session1",
+    "position": 1,
+    "characters": {
+      "Narrator": {
+        "voice_settings": {
+          "voice_id": "bD9maNcCuQQS75DGuteM"
+        }
+      }
+    },
+    "moves": [
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "Hi! I am your English learning robot."
+      },
+      {
+        "type": "ask_open",
+        "character": "Narrator",
+        "text": "What is your name?",
+        "set_variable": "student_name"
+      },
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "Nice to meet you %student_name%."
+      },
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "Today, we will meet some friends and learn magic body words."
+      },
+      {
+        "type": "show_image",
+        "src": "assets/images/ginger.png"
+      },
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "This is Ginger. Ginger is brave."
+      },
+      {
+        "type": "timed_wait",
+        "duration_seconds": 1
+      },
+      {
+        "type": "show_image",
+        "src": "assets/images/torob.png"
+      },
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "This is Torob. Torob likes guessing."
+      },
+      {
+        "type": "timed_wait",
+        "duration_seconds": 1
+      },
+      {
+        "type": "show_image",
+        "src": "assets/images/jojo.png"
+      },
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "This is Jojo. Jojo likes to help."
+      },
+      {
+        "type": "timed_wait",
+        "duration_seconds": 1
+      },
+      {
+        "type": "show_image",
+        "src": "assets/images/shila.png"
+      },
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "And this is Shila. Shila thinks carefully."
+      },
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "%student_name%, are you ready to hear their story?"
+      },
+      {
+        "type": "timed_wait",
+        "duration_seconds": 2
+      }
+    ]
+  },
+    {
+    "id": "session1_story_intro",
+    "type": "narrative",
+    "thread": "session1",
+    "position": 2,
+    "characters": {
+      "Narrator": {
+        "voice_settings": {
+          "voice_id": "bD9maNcCuQQS75DGuteM"
+        }
+      },
+      "Ginger": {
+        "voice_settings": {
+          "voice_id": "FGY2WhTYpPnrIDTdsKH5"
+        }
+      },
+      "Torob": {
+        "voice_settings": {
+          "voice_id": "IKne3meq5aSn9XLyUdCD"
+        }
+      },
+      "Jojo": {
+        "voice_settings": {
+          "voice_id": "yO6w2xlECAQRFP6pX7Hw"
+        }
+      },
+      "Shila": {
+        "voice_settings": {
+          "voice_id": "EXAVITQu4vr4xnSDxMaL"
+        }
+      },
+      "Koko": {
+        "voice_settings": {
+          "voice_id": "CwhRBWXzGAHq8TQ4Fs17"
+        }
+      },
+      "Simo": {
+        "voice_settings": {
+          "voice_id": "7p1Ofvcwsv7UBPoFNcpI"
+        }
+      },
+      "All": {
+        "voice_settings": {
+          "voice_id": "bD9maNcCuQQS75DGuteM"
+        }
+      }
+    },
+    "moves": [
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "Chapter one. The Magic Pass."
+      },
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "Ginger looks at the glowing crack."
+      },
+      {
+        "type": "show_image",
+        "src": "assets/images/open_crack.png"
+      },
+      {
+        "type": "play",
+        "audio": "assets/audio/dinosaur_roar_real.wav"
+      },
+      {
+        "type": "say",
+        "character": "Ginger",
+        "text":  "The secret password is a body part. Let's think together. What could it be?"
+      },
+      {
+        "type": "timed_wait",
+        "duration_seconds": 1
+      },
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "The friends look at each other and start guessing."
+      },
+      {
+        "type": "say",
+        "character": "Torob",
+        "text": "Maybe... eye?"
+      },
+      {
+        "type": "show_image",
+        "src": "assets/images/eye.png"
+      },
+      {
+        "type": "say",
+        "character": "Ginger",
+        "text": "Mhhhh..."
+      },
+      {
+        "type": "say",
+        "character": "Ginger",
+        "text": "Eye...? Are you sure?"
+      },
+      {
+        "type": "say",
+        "character": "Torob",
+        "text": "Yes... eye..."
+      },
+      {
+        "type": "say",
+        "character": "All",
+        "text": "Eye... eye... eye..."
+      },
+      {
+        "type": "timed_wait",
+        "duration_seconds": 2
+      },
+      {
+        "type": "show_image",
+        "src": "assets/images/closed_crack.png"
+      },
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "They wait. Nothing happens. The crack stays closed."
+      },
+      {
+        "type": "show_image",
+        "src": "assets/images/not_eye.png"
+      },
+      {
+        "type": "say",
+        "character": "Ginger",
+        "text": "No... not eye."
+      },
+      {
+        "type": "play",
+        "audio": "assets/audio/boom.wav"
+      },
+      {
+        "type": "show_image",
+        "src": "assets/images/ear.png"
+      },
+      {
+        "type": "say",
+        "character": "Simo",
+        "text": "Maybe ear."
+      },
+      {
+        "type": "say",
+        "character": "Jojo",
+        "text": "Yes... ear... we hear!"
+      },
+      {
+        "type": "say",
+        "character": "Jojo",
+        "text": "I think ear too!"
+      },
+      {
+        "type": "say",
+        "character": "Simo",
+        "text": "Then... ear..."
+      },
+      {
+        "type": "say",
+        "character": "All",
+        "text": "Ear... ear... ear..."
+      },
+      {
+        "type": "timed_wait",
+        "duration_seconds": 2
+      },
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "They wait. Nothing happens."
+      },
+      {
+        "type": "play",
+        "audio": "assets/audio/dinosaur_roar_real.wav"
+      },
+      {
+        "type": "show_image",
+        "src": "assets/images/not_ear.png"
+      },
+      {
+        "type": "say",
+        "character": "Jojo",
+        "text": "No... not ear!"
+      },
+      {
+        "type": "play",
+        "audio": "assets/audio/boom.wav"
+      },
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "Shila thinks carefully."
+      },
+      {
+        "type": "say",
+        "character": "Shila",
+        "text": "Maybe nose..."
+      },
+      {
+        "type": "show_image",
+        "src": "assets/images/nose.png"
+      },
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "Ginger quickly says:"
+      },
+      {
+        "type": "say",
+        "character": "Ginger",
+        "text": "Yes!! Nose!"
+      },
+      {
+        "type": "say",
+        "character": "Ginger",
+        "text": "Let's try nose..."
+      },
+      {
+        "type": "say",
+        "character": "All",
+        "text": "Nose... nose... nose..."
+      },
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "The crack shakes a little."
+      },
+      {
+        "type": "play",
+        "audio": "assets/audio/gasp.wav"
+      },
+      {
+        "type": "play",
+        "audio": "assets/audio/moving_stone.wav"
+      },
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "Everyone freezes."
+      },
+      {
+        "type": "show_image",
+        "src": "assets/images/not_nose.png"
+      },
+      {
+        "type": "say",
+        "character": "Shila",
+        "text": "It moves... but no... not nose!"
+      },
+      {
+        "type": "play",
+        "audio": "assets/audio/boom.wav"
+      },
+      {
+        "type": "say",
+        "character": "Shila",
+        "text": "The crack moved. We are getting closer. Let's keep trying."
+      },
+      {
+        "type": "show_image",
+        "src": "assets/images/mouth.png"
+      },
+      {
+        "type": "say",
+        "character": "Shila",
+        "text": "Maybe the password is mouth."
+      },
+      {
+        "type": "say",
+        "character": "Jojo",
+        "text": "Mouth?"
+      },
+      {
+        "type": "say",
+        "character": "Shila",
+        "text": "Yes... mouth..."
+      },
+      {
+        "type": "say",
+        "character": "Ginger",
+        "text": "Let's try mouth!"
+      },
+      {
+        "type": "say",
+        "character": "All",
+        "text": "Mouth... mouth... mouth..."
+      },
+      {
+        "type": "show_image",
+        "src": "assets/images/open_crack.png"
+      },
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "The crack opens a little. A bright light shines out. Everyone cheers."
+      },
+      {
+        "type": "play",
+        "audio": "assets/audio/cheering_crowd.wav"
+      },
+      {
+        "type": "timed_wait",
+        "duration_seconds": 3
+      },
+      {
+        "type": "say",
+        "character": "Jojo",
+        "text": "It works! It works!"
+      },
+      {
+        "type": "show_image",
+        "src": "assets/images/not_mouth.png"
+      },
+      {
+        "type": "say",
+        "character": "Shila",
+        "text": "Not mouth. We need one more clue!"
+      },
+      {
+        "type": "play",
+        "audio": "assets/audio/boom.wav"
+      },
+
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "Ginger steps closer to the glowing crack. It sparkles and hums softly."
+      },
+      {
+        "type": "play",
+        "audio": "assets/audio/magic_hum.wav"
+      },
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "The crack glows even brighter."
+      },
+      {
+        "type": "show_image",
+        "src": "assets/images/lips.png"
+      },
+      {
+        "type": "say",
+        "character": "Torob",
+        "text": "Maybe... lips?"
+      },
+      {
+        "type": "say",
+        "character": "Ginger",
+        "text": "Lips..?"
+      },
+      {
+        "type": "say",
+        "character": "Torob",
+        "text": "Liiips..."
+      },
+      {
+        "type": "say",
+        "character": "All",
+        "text": "Lips... lips... lips..."
+      },
+      {
+        "type": "timed_wait",
+        "duration_seconds": 2
+      },
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "They wait and watch carefully. Nothing happens."
+      },
+      {
+        "type": "show_image",
+        "src": "assets/images/not_lips.png"
+      },
+      {
+        "type": "say",
+        "character": "Ginger",
+        "text": "Nooo... not lips!"
+      },
+      {
+        "type": "play",
+        "audio": "assets/audio/boom.wav"
+      },
+
+      {
+        "type": "show_image",
+        "src": "assets/images/toes.png"
+      },
+      {
+        "type": "say",
+        "character": "Koko",
+        "text": "Wait! Maybe toes!"
+      },
+      {
+        "type": "timed_wait",
+        "duration_seconds": 1
+      },
+      {
+        "type": "say",
+        "character": "Ginger",
+        "text": "Toes..."
+      },
+      {
+        "type": "timed_wait",
+        "duration_seconds": 1
+      },
+      {
+        "type": "say",
+        "character": "Koko",
+        "text": "Toes!"
+      },
+      {
+        "type": "say",
+        "character": "All",
+        "text": "Toes... toes... toes..."
+      },
+      {
+        "type": "timed_wait",
+        "duration_seconds": 2
+      },
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "They hold their breath. The wall flickers just a tiny bit."
+      },
+      {
+        "type": "show_image",
+        "src": "assets/images/not_toes.png"
+      },
+      {
+        "type": "say",
+        "character": "Jojo",
+        "text": "Hmm... not toes..."
+      },
+      {
+        "type": "play",
+        "audio": "assets/audio/boom.wav"
+      },
+
+      {
+        "type": "show_image",
+        "src": "assets/images/face.png"
+      },
+      {
+        "type": "say",
+        "character": "Shila",
+        "text": "I have an idea... maybe face."
+      },
+      {
+        "type": "say",
+        "character": "Ginger",
+        "text": "Face? ... That could be it!"
+      },
+      {
+        "type": "say",
+        "character": "Shila",
+        "text": "Let's try face!"
+      },
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "Ginger takes a deep breath. Everyone waits quietly."
+      },
+      {
+        "type": "timed_wait",
+        "duration_seconds": 2
+      },
+      {
+        "type": "say",
+        "character": "Ginger",
+        "text": "Face..."
+      },
+      {
+        "type": "timed_wait",
+        "duration_seconds": 1
+      },
+      {
+        "type": "say",
+        "character": "All",
+        "text": "Face... face... face..."
+      },
+      {
+        "type": "timed_wait",
+        "duration_seconds": 2
+      },
+      {
+        "type": "play",
+        "audio": "assets/audio/cheering_crowd.wav"
+      },
+      {
+        "type": "play",
+        "audio": "assets/audio/boom.wav"
+      },
+      {
+        "type": "play",
+        "audio": "assets/audio/boom.wav"
+      },
+      {
+        "type": "play",
+        "audio": "assets/audio/boom.wav"
+      },
+      {
+        "type": "show_image",
+        "src": "assets/images/open_crack.png"
+      },
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "The crack swings open!"
+      },
+      {
+        "type": "timed_wait",
+        "duration_seconds": 2
+      },
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "The friends did it!"
+      },
+      {
+        "type": "play",
+        "audio": "assets/audio/cheering_crowd.wav"
+      },
+      {
+        "type": "say",
+        "character": "Ginger",
+        "text": "The Magic Pass is open!"
+      },
+      {
+        "type": "say",
+        "character": "Jojo",
+        "text": "We found the secret password!"
+      },
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "And the friends are ready for their next adventure."
+      }
+    ]
+  },
+  {
+    "id": "session1_qna_practice",
+    "type": "narrative",
+    "thread": "session1",
+    "position": 3,
+    "characters": {
+        "Narrator": {
+          "voice_settings": {
+            "voice_id": "bD9maNcCuQQS75DGuteM"
+          }
+        }
+    },
+    "moves": [
+      {
+        "type": "show_html",
+        "html": "<!DOCTYPE html><html><head><meta charset='UTF-8'><style>body{margin:0;background:black;color:white;font-family:Arial,sans-serif;text-align:center;overflow:hidden;}h1{font-size:44px;margin-top:55px;margin-bottom:25px;}p{font-size:28px;line-height:1.4;margin:14px 70px;}</style></head><body><h1>Magic Practice</h1><p>Let us practice the body words together.</p><p>Look at the picture.</p><p>Then touch the body part on yourself.</p></body></html>"
+      },
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "Now we will practice the magic body words together. Look at the picture and touch the body part on yourself."
+      },
+      {
+        "type": "wait_for_web_input",
+        "prompt": "GO",
+        "options": ["GO"],
+        "timeout": 120,
+        "outcomes": {
+          "GO": "qna_practice_start"
+        },
+        "default_outcome": "qna_practice_start"
+      },
+
+      {
+        "type": "show_image",
+        "src": "assets/images/eye.png"
+      },
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "These are eyes. Eyes help us see."
+      },
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "Ginger uses her eyes to look for magic clues. Touch your eyes."
+      },
+      {
+        "type": "timed_wait",
+        "duration_seconds": 4
+      },
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "Wonderful. Eyes."
+      },
+      {
+        "type": "play",
+        "audio": "assets/audio/cheerful_ping.wav"
+      },
+      {
+        "type": "show_image",
+        "src": "assets/images/ear.png"
+      },
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "These are ears. Ears help us hear."
+      },
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "Torob uses his ears to listen carefully. Touch your ears."
+      },
+      {
+        "type": "timed_wait",
+        "duration_seconds": 4
+      },
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "Nice. Ears."
+      },
+
+      {
+        "type": "show_image",
+        "src": "assets/images/nose.png"
+      },
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "This is a nose. A nose helps us smell."
+      },
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "Jojo uses his nose to smell flowers. Touch your nose."
+      },
+      {
+        "type": "timed_wait",
+        "duration_seconds": 4
+      },
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "Great. Nose."
+      },
+
+      {
+        "type": "show_image",
+        "src": "assets/images/mouth.png"
+      },
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "This is a mouth. We use our mouth to speak and eat."
+      },
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "Show me your mouth. Can you make a big smile?"
+      },
+      {
+        "type": "timed_wait",
+        "duration_seconds": 4
+      },
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "Perfect. Mouth."
+      },
+
+      {
+        "type": "show_image",
+        "src": "assets/images/lips.png"
+      },
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "These are lips. Lips are part of your mouth."
+      },
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "Touch your lips."
+      },
+      {
+        "type": "timed_wait",
+        "duration_seconds": 4
+      },
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "Good job. Lips."
+      },
+
+      {
+        "type": "show_image",
+        "src": "assets/images/toes.png"
+      },
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "These are toes. Your toes are on your feet."
+      },
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "Can you wiggle your toes?"
+      },
+      {
+        "type": "timed_wait",
+        "duration_seconds": 5
+      },
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "Funny. Toes."
+      },
+
+      {
+        "type": "show_image",
+        "src": "assets/images/face.png"
+      },
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "This is a face. Your eyes, nose, mouth, and lips are all on your face."
+      },
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "Touch your face and make a happy face."
+      },
+      {
+        "type": "timed_wait",
+        "duration_seconds": 4
+      },
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "Amazing. Face."
+      },
+
+      {
+        "type": "play",
+        "audio": "assets/audio/cheerful_ping.wav"
+      },
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "Great practice. You learned the magic body words with Ginger, Torob, Shila, and Jojo. Next, we will meet more friends."
+      }
+    ]
+  },
+    {
+    "id": "session1_meet_remaining_friends",
+    "type": "narrative",
+    "thread": "session1",
+    "position": 4,
+    "characters": {
+      "Narrator": {
+        "voice_settings": {
+          "voice_id": "bD9maNcCuQQS75DGuteM"
+        }
+      },
+      "Simo": {
+        "voice_settings": {
+          "voice_id": "7p1Ofvcwsv7UBPoFNcpI"
+        }
+      },
+      "Koko": {
+        "voice_settings": {
+          "voice_id": "CwhRBWXzGAHq8TQ4Fs17"
+        }
+      }
+    },
+    "moves": [
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "Great practice! Maybe you were wondering about the other friends."
+      },
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "Before we play our picture game, it is time to meet them!"
+      },
+      {
+        "type": "show_image",
+        "src": "assets/images/simo.png"
+      },
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "This is Simo. When everyone was stuck, Simo guessed ear."
+      },
+      {
+        "type": "timed_wait",
+        "duration_seconds": 2
+      },
+      {
+        "type": "show_image",
+        "src": "assets/images/ear.png"
+      },
+      {
+        "type": "say",
+        "character": "Simo",
+        "text": "Ear! We use ears to hear."
+      },
+      {
+        "type": "show_image",
+        "src": "assets/images/koko.png"
+      },
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "This is Koko. Koko never gives up. Koko guessed toes."
+      },
+      {
+        "type": "timed_wait",
+        "duration_seconds": 2
+      },
+      {
+        "type": "show_image",
+        "src": "assets/images/toes.png"
+      },
+      {
+        "type": "say",
+        "character": "Koko",
+        "text": "Toes! Try again and keep going!"
+      },
+      {
+        "type": "show_html",
+        "html": "<!DOCTYPE html><html><head><meta charset='UTF-8'><style>body{margin:0;background:black;color:white;font-family:Arial,sans-serif;text-align:center;overflow:hidden;}h1{font-size:42px;margin-top:45px;}p{font-size:28px;margin:20px 50px;}.friends{display:flex;justify-content:center;gap:20px;margin-top:20px;}.friends img{width:78px;height:78px;object-fit:contain;}</style></head><body><h1>All Six Friends!</h1><p>Now all six friends are here.</p><div class='friends'><img src='/static/user_assets/images/ginger.png'><img src='/static/user_assets/images/torob.png'><img src='/static/user_assets/images/jojo.png'><img src='/static/user_assets/images/shila.png'><img src='/static/user_assets/images/simo.png'><img src='/static/user_assets/images/koko.png'></div></body></html>"
+      },
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "Now all six friends are here! Next, we will play the picture game."
+      },
+      {
+        "type": "timed_wait",
+        "duration_seconds": 3
+      }
+    ]
+  },
+  {
+    "id": "session1_kahoot",
+    "type": "narrative",
+    "thread": "session1",
+    "position": 5,
+    "characters": {
+      "Narrator": {
+        "voice_settings": {
+          "voice_id": "bD9maNcCuQQS75DGuteM"
+        }
+      },
+      "Torob": {
+        "voice_settings": {
+          "voice_id": "IKne3meq5aSn9XLyUdCD"
+        }
+      },
+      "Jojo": {
+        "voice_settings": {
+          "voice_id": "yO6w2xlECAQRFP6pX7Hw"
+        }
+      },
+      "Shila": {
+        "voice_settings": {
+          "voice_id": "EXAVITQu4vr4xnSDxMaL"
+        }
+      }
+    },
+    "moves": [
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "This is the Learning Round, %student_name%. You can choose a helper."
+      },
+      {
+        "type": "show_html",
+        "html": "<!DOCTYPE html><html><head><meta charset='UTF-8'><style>body{margin:0;background:black;color:white;font-family:Arial,sans-serif;text-align:center;overflow:hidden;}h1{font-size:38px;margin:20px 0 8px 0;}p{font-size:24px;margin:0 0 12px 0;}.grid{display:flex;justify-content:center;gap:38px;margin-top:18px;transform:translateX(40px);}.card{width:120px;height:150px;display:flex;flex-direction:column;align-items:center;justify-content:center;}.card img{width:95px;height:95px;object-fit:contain;}.name{font-size:18px;margin-top:6px;color:white;}</style></head><body><h1>Choose your helper</h1><p>Your helper will give hints.</p><div class='grid'><div class='card'><img src='/static/user_assets/images/torob.png'><div class='name'>TOROB</div></div><div class='card'><img src='/static/user_assets/images/jojo.png'><div class='name'>JOJO</div></div><div class='card'><img src='/static/user_assets/images/shila.png'><div class='name'>SHILA</div></div></div></body></html>"
+      },
+      {
+        "type": "wait_for_web_input",
+        "prompt": "Choose your helper",
+        "options": ["TOROB", "JOJO", "SHILA"],
+        "timeout": 120,
+        "outcomes": {
+          "TOROB": "helper_torob",
+          "JOJO": "helper_jojo",
+          "SHILA": "helper_shila"
+        },
+        "default_outcome": "helper_jojo"
+      },
+      {
+        "type": "branch",
+        "on": "outcome",
+        "cases": {
+          "helper_torob": [
+            {
+              "type": "say",
+              "character": "Torob",
+              "text": "I will help you guess, %student_name%. Let us try together!"
+            }
+          ],
+          "helper_jojo": [
+            {
+              "type": "say",
+              "character": "Jojo",
+              "text": "I will help you, %student_name%. We can do this together!"
+            }
+          ],
+          "helper_shila": [
+            {
+              "type": "say",
+              "character": "Shila",
+              "text": "I will help you think carefully, %student_name%."
+            }
+          ]
+        }
+      },
+
+      {
+        "type": "show_html",
+        "html": "<!DOCTYPE html><html><head><meta charset='UTF-8'><style>body{margin:0;background:black;color:white;font-family:Arial,sans-serif;text-align:center;overflow:hidden;}h1{font-size:44px;margin-top:55px;margin-bottom:25px;}p{font-size:28px;line-height:1.4;margin:14px 70px;}</style></head><body><h1>Learning Picture Game</h1><p>You will see three pictures.</p><p>Listen to the robot.</p><p>Choose A, B, or C.</p><p>If you need help, your helper gives a hint.</p></body></html>"
+      },
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "Now let's play the learning picture game. You can try again if you make a mistake. Touch start when you are ready."
+      },
+      {
+        "type": "wait_for_web_input",
+        "prompt": "START",
+        "options": ["START"],
+        "timeout": 120,
+        "outcomes": {
+          "START": "kahoot_start"
+        },
+        "default_outcome": "kahoot_start"
+      },
+
+      {
+        "type": "show_html",
+        "html": "<!DOCTYPE html><html><head><meta charset='UTF-8'><style>body{margin:0;background:black;color:white;font-family:Arial,sans-serif;text-align:center;overflow:hidden;}h1{font-size:42px;margin:18px 0 6px 0;}p{font-size:24px;margin:0 0 8px 0;}.grid{display:flex;justify-content:center;gap:45px;margin-top:5px;transform:translateX(55px);}.option{width:140px;height:140px;display:flex;align-items:center;justify-content:center;}.option img{width:120px;height:120px;object-fit:contain;}</style></head><body><h1>Find: EYE</h1><p>Touch eye.</p><div class='grid'><div class='option'><img src='/static/user_assets/images/ear.png'></div><div class='option'><img src='/static/user_assets/images/eye.png'></div><div class='option'><img src='/static/user_assets/images/toes.png'></div></div></body></html>"
+      },
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "Eye... eye... Touch eye."
+      },
+      {
+        "type": "wait_for_web_input",
+        "prompt": "Choose A, B, or C",
+        "options": ["A", "B", "C"],
+        "timeout": 60,
+        "outcomes": {
+          "B": "kahoot_q1_correct_first"
+        },
+        "default_outcome": "kahoot_q1_try_again"
+      },
+      {
+        "type": "branch",
+        "on": "outcome",
+        "cases": {
+          "kahoot_q1_correct_first": [
+            {
+              "type": "show_image",
+              "src": "assets/images/green_check.png"
+            },
+            {
+              "type": "play",
+              "audio": "assets/audio/clap.wav"
+            },
+            {
+              "type": "show_html",
+              "html": "<video src='/static/user_assets/videos/growing_heart.mp4' autoplay muted playsinline style='max-width:100%;max-height:100%;'></video>"
+            },
+            {
+              "type": "timed_wait",
+              "duration_seconds": 2.5
+            },
+            {
+              "type": "say",
+              "character": "Narrator",
+              "text": "Fantastic, %student_name%! You found eye."
+            }
+          ],
+          "kahoot_q1_try_again": [
+            {
+              "type": "show_image",
+              "src": "assets/images/red_cross.png"
+            },
+            {
+              "type": "say",
+              "character": "Narrator",
+              "text": "Good try, %student_name%! That is okay."
+            },
+            {
+              "type": "say",
+              "character": "Narrator",
+              "text": "Hint. We use eyes to see."
+            },
+            {
+              "type": "say",
+              "character": "Narrator",
+              "text": "Try one more time."
+            },
+            {
+              "type": "show_html",
+              "html": "<!DOCTYPE html><html><head><meta charset='UTF-8'><style>body{margin:0;background:black;color:white;font-family:Arial,sans-serif;text-align:center;overflow:hidden;}h1{font-size:42px;margin:18px 0 6px 0;}p{font-size:24px;margin:0 0 8px 0;}.grid{display:flex;justify-content:center;gap:45px;margin-top:5px;transform:translateX(55px);}.option{width:140px;height:140px;display:flex;align-items:center;justify-content:center;}.option img{width:120px;height:120px;object-fit:contain;}</style></head><body><h1>Find: EYE</h1><p>Touch eye.</p><div class='grid'><div class='option'><img src='/static/user_assets/images/ear.png'></div><div class='option'><img src='/static/user_assets/images/eye.png'></div><div class='option'><img src='/static/user_assets/images/toes.png'></div></div></body></html>"
+            },
+            {
+              "type": "wait_for_web_input",
+              "prompt": "Try again: choose A, B, or C",
+              "options": ["A", "B", "C"],
+              "timeout": 60,
+              "outcomes": {
+                "B": "kahoot_q1_correct_second"
+              },
+              "default_outcome": "kahoot_q1_wrong_final"
+            },
+            {
+              "type": "branch",
+              "on": "outcome",
+              "cases": {
+                "kahoot_q1_correct_second": [
+                  {
+                    "type": "show_image",
+                    "src": "assets/images/green_check.png"
+                  },
+                  {
+                    "type": "play",
+                    "audio": "assets/audio/clap.wav"
+                  },
+                  {
+                    "type": "show_html",
+                    "html": "<video src='/static/user_assets/videos/growing_heart.mp4' autoplay muted playsinline style='max-width:100%;max-height:100%;'></video>"
+                  },
+                  {
+                    "type": "timed_wait",
+                    "duration_seconds": 2.5
+                  },
+                  {
+                    "type": "say",
+                    "character": "Narrator",
+                    "text": "Yes! You found eye!"
+                  }
+                ],
+                "kahoot_q1_wrong_final": [
+                  {
+                    "type": "show_image",
+                    "src": "assets/images/eye.png"
+                  },
+                  {
+                    "type": "say",
+                    "character": "Narrator",
+                    "text": "It was eye. Good learning!"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "Great job! Three more questions to go."
+      },
+
+      {
+        "type": "show_html",
+        "html": "<!DOCTYPE html><html><head><meta charset='UTF-8'><style>body{margin:0;background:black;color:white;font-family:Arial,sans-serif;text-align:center;overflow:hidden;}h1{font-size:42px;margin:18px 0 6px 0;}p{font-size:24px;margin:0 0 8px 0;}.grid{display:flex;justify-content:center;gap:45px;margin-top:5px;transform:translateX(55px);}.option{width:140px;height:140px;display:flex;align-items:center;justify-content:center;}.option img{width:120px;height:120px;object-fit:contain;}</style></head><body><h1>Find: EAR</h1><p>Touch ear.</p><div class='grid'><div class='option'><img src='/static/user_assets/images/ear.png'></div><div class='option'><img src='/static/user_assets/images/eye.png'></div><div class='option'><img src='/static/user_assets/images/lips.png'></div></div></body></html>"
+      },
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "Ear... ear... Touch ear."
+      },
+      {
+        "type": "wait_for_web_input",
+        "prompt": "Choose A, B, or C",
+        "options": ["A", "B", "C"],
+        "timeout": 60,
+        "outcomes": {
+          "A": "kahoot_q2_correct_first"
+        },
+        "default_outcome": "kahoot_q2_try_again"
+      },
+      {
+        "type": "branch",
+        "on": "outcome",
+        "cases": {
+          "kahoot_q2_correct_first": [
+            {
+              "type": "show_image",
+              "src": "assets/images/green_check.png"
+            },
+            {
+              "type": "play",
+              "audio": "assets/audio/clap.wav"
+            },
+            {
+              "type": "show_html",
+              "html": "<video src='/static/user_assets/videos/growing_heart.mp4' autoplay muted playsinline style='max-width:100%;max-height:100%;'></video>"
+            },
+            {
+              "type": "timed_wait",
+              "duration_seconds": 2.5
+            },
+            {
+              "type": "say",
+              "character": "Narrator",
+              "text": "Great listening!"
+            }
+          ],
+          "kahoot_q2_try_again": [
+            {
+              "type": "show_image",
+              "src": "assets/images/red_cross.png"
+            },
+            {
+              "type": "say",
+              "character": "Narrator",
+              "text": "Good try! Let's think together."
+            },
+            {
+              "type": "say",
+              "character": "Narrator",
+              "text": "Hint. We use ears to hear."
+            },
+            {
+              "type": "say",
+              "character": "Narrator",
+              "text": "Try one more time."
+            },
+            {
+              "type": "show_html",
+              "html": "<!DOCTYPE html><html><head><meta charset='UTF-8'><style>body{margin:0;background:black;color:white;font-family:Arial,sans-serif;text-align:center;overflow:hidden;}h1{font-size:42px;margin:18px 0 6px 0;}p{font-size:24px;margin:0 0 8px 0;}.grid{display:flex;justify-content:center;gap:45px;margin-top:5px;transform:translateX(55px);}.option{width:140px;height:140px;display:flex;align-items:center;justify-content:center;}.option img{width:120px;height:120px;object-fit:contain;}</style></head><body><h1>Find: EAR</h1><p>Touch ear.</p><div class='grid'><div class='option'><img src='/static/user_assets/images/ear.png'></div><div class='option'><img src='/static/user_assets/images/eye.png'></div><div class='option'><img src='/static/user_assets/images/lips.png'></div></div></body></html>"
+            },
+            {
+              "type": "wait_for_web_input",
+              "prompt": "Try again: choose A, B, or C",
+              "options": ["A", "B", "C"],
+              "timeout": 60,
+              "outcomes": {
+                "A": "kahoot_q2_correct_second"
+              },
+              "default_outcome": "kahoot_q2_wrong_final"
+            },
+            {
+              "type": "branch",
+              "on": "outcome",
+              "cases": {
+                "kahoot_q2_correct_second": [
+                  {
+                    "type": "show_image",
+                    "src": "assets/images/green_check.png"
+                  },
+                  {
+                    "type": "play",
+                    "audio": "assets/audio/clap.wav"
+                  },
+                  {
+                    "type": "show_html",
+                    "html": "<video src='/static/user_assets/videos/growing_heart.mp4' autoplay muted playsinline style='max-width:100%;max-height:100%;'></video>"
+                  },
+                  {
+                    "type": "timed_wait",
+                    "duration_seconds": 2.5
+                  },
+                  {
+                    "type": "say",
+                    "character": "Narrator",
+                    "text": "Yes! You found ear!"
+                  }
+                ],
+                "kahoot_q2_wrong_final": [
+                  {
+                    "type": "show_image",
+                    "src": "assets/images/ear.png"
+                  },
+                  {
+                    "type": "say",
+                    "character": "Narrator",
+                    "text": "It was ear. Good learning!"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "You are doing really well!"
+      },
+
+      {
+        "type": "show_html",
+        "html": "<!DOCTYPE html><html><head><meta charset='UTF-8'><style>body{margin:0;background:black;color:white;font-family:Arial,sans-serif;text-align:center;overflow:hidden;}h1{font-size:42px;margin:18px 0 6px 0;}p{font-size:24px;margin:0 0 8px 0;}.grid{display:flex;justify-content:center;gap:45px;margin-top:5px;transform:translateX(55px);}.option{width:140px;height:140px;display:flex;align-items:center;justify-content:center;}.option img{width:120px;height:120px;object-fit:contain;}</style></head><body><h1>Find: NOSE</h1><p>Touch nose.</p><div class='grid'><div class='option'><img src='/static/user_assets/images/nose.png'></div><div class='option'><img src='/static/user_assets/images/toes.png'></div><div class='option'><img src='/static/user_assets/images/mouth.png'></div></div></body></html>"
+      },
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "Nose... nose... Touch nose."
+      },
+      {
+        "type": "wait_for_web_input",
+        "prompt": "Choose A, B, or C",
+        "options": ["A", "B", "C"],
+        "timeout": 60,
+        "outcomes": {
+          "A": "kahoot_q3_correct_first"
+        },
+        "default_outcome": "kahoot_q3_try_again"
+      },
+      {
+        "type": "branch",
+        "on": "outcome",
+        "cases": {
+          "kahoot_q3_correct_first": [
+            {
+              "type": "show_image",
+              "src": "assets/images/green_check.png"
+            },
+            {
+              "type": "play",
+              "audio": "assets/audio/clap.wav"
+            },
+            {
+              "type": "show_html",
+              "html": "<video src='/static/user_assets/videos/growing_heart.mp4' autoplay muted playsinline style='max-width:100%;max-height:100%;'></video>"
+            },
+            {
+              "type": "timed_wait",
+              "duration_seconds": 2.5
+            },
+            {
+              "type": "say",
+              "character": "Narrator",
+              "text": "Excellent!"
+            }
+          ],
+          "kahoot_q3_try_again": [
+            {
+              "type": "show_image",
+              "src": "assets/images/red_cross.png"
+            },
+            {
+              "type": "say",
+              "character": "Narrator",
+              "text": "Good try! You can try again."
+            },
+            {
+              "type": "say",
+              "character": "Narrator",
+              "text": "Hint. We use our nose to smell."
+            },
+            {
+              "type": "say",
+              "character": "Narrator",
+              "text": "Try one more time."
+            },
+            {
+              "type": "show_html",
+              "html": "<!DOCTYPE html><html><head><meta charset='UTF-8'><style>body{margin:0;background:black;color:white;font-family:Arial,sans-serif;text-align:center;overflow:hidden;}h1{font-size:42px;margin:18px 0 6px 0;}p{font-size:24px;margin:0 0 8px 0;}.grid{display:flex;justify-content:center;gap:45px;margin-top:5px;transform:translateX(55px);}.option{width:140px;height:140px;display:flex;align-items:center;justify-content:center;}.option img{width:120px;height:120px;object-fit:contain;}</style></head><body><h1>Find: NOSE</h1><p>Touch nose.</p><div class='grid'><div class='option'><img src='/static/user_assets/images/nose.png'></div><div class='option'><img src='/static/user_assets/images/toes.png'></div><div class='option'><img src='/static/user_assets/images/mouth.png'></div></div></body></html>"
+            },
+            {
+              "type": "wait_for_web_input",
+              "prompt": "Try again: choose A, B, or C",
+              "options": ["A", "B", "C"],
+              "timeout": 60,
+              "outcomes": {
+                "A": "kahoot_q3_correct_second"
+              },
+              "default_outcome": "kahoot_q3_wrong_final"
+            },
+            {
+              "type": "branch",
+              "on": "outcome",
+              "cases": {
+                "kahoot_q3_correct_second": [
+                  {
+                    "type": "show_image",
+                    "src": "assets/images/green_check.png"
+                  },
+                  {
+                    "type": "play",
+                    "audio": "assets/audio/clap.wav"
+                  },
+                  {
+                    "type": "show_html",
+                    "html": "<video src='/static/user_assets/videos/growing_heart.mp4' autoplay muted playsinline style='max-width:100%;max-height:100%;'></video>"
+                  },
+                  {
+                    "type": "timed_wait",
+                    "duration_seconds": 2.5
+                  },
+                  {
+                    "type": "say",
+                    "character": "Narrator",
+                    "text": "Yes! You found nose!"
+                  }
+                ],
+                "kahoot_q3_wrong_final": [
+                  {
+                    "type": "show_image",
+                    "src": "assets/images/nose.png"
+                  },
+                  {
+                    "type": "say",
+                    "character": "Narrator",
+                    "text": "It was nose. Good learning!"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "One more question left!"
+      },
+
+      {
+        "type": "show_html",
+        "html": "<!DOCTYPE html><html><head><meta charset='UTF-8'><style>body{margin:0;background:black;color:white;font-family:Arial,sans-serif;text-align:center;overflow:hidden;}h1{font-size:42px;margin:18px 0 6px 0;}p{font-size:24px;margin:0 0 8px 0;}.grid{display:flex;justify-content:center;gap:45px;margin-top:5px;transform:translateX(55px);}.option{width:140px;height:140px;display:flex;align-items:center;justify-content:center;}.option img{width:120px;height:120px;object-fit:contain;}</style></head><body><h1>Find: MOUTH</h1><p>Touch mouth.</p><div class='grid'><div class='option'><img src='/static/user_assets/images/mouth.png'></div><div class='option'><img src='/static/user_assets/images/nose.png'></div><div class='option'><img src='/static/user_assets/images/toes.png'></div></div></body></html>"
+      },
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "Mouth... mouth... Touch mouth."
+      },
+      {
+        "type": "wait_for_web_input",
+        "prompt": "Choose A, B, or C",
+        "options": ["A", "B", "C"],
+        "timeout": 60,
+        "outcomes": {
+          "A": "kahoot_q4_correct_first"
+        },
+        "default_outcome": "kahoot_q4_try_again"
+      },
+      {
+        "type": "branch",
+        "on": "outcome",
+        "cases": {
+          "kahoot_q4_correct_first": [
+            {
+              "type": "show_image",
+              "src": "assets/images/green_check.png"
+            },
+            {
+              "type": "play",
+              "audio": "assets/audio/clap.wav"
+            },
+            {
+              "type": "show_html",
+              "html": "<video src='/static/user_assets/videos/growing_heart.mp4' autoplay muted playsinline style='max-width:100%;max-height:100%;'></video>"
+            },
+            {
+              "type": "timed_wait",
+              "duration_seconds": 2.5
+            },
+            {
+              "type": "say",
+              "character": "Narrator",
+              "text": "You got it!"
+            }
+          ],
+          "kahoot_q4_try_again": [
+            {
+              "type": "show_image",
+              "src": "assets/images/red_cross.png"
+            },
+            {
+              "type": "say",
+              "character": "Narrator",
+              "text": "Good try! Let's try once more."
+            },
+            {
+              "type": "say",
+              "character": "Narrator",
+              "text": "Hint. We use our mouth to speak and eat."
+            },
+            {
+              "type": "say",
+              "character": "Narrator",
+              "text": "Try one more time."
+            },
+            {
+              "type": "show_html",
+              "html": "<!DOCTYPE html><html><head><meta charset='UTF-8'><style>body{margin:0;background:black;color:white;font-family:Arial,sans-serif;text-align:center;overflow:hidden;}h1{font-size:42px;margin:18px 0 6px 0;}p{font-size:24px;margin:0 0 8px 0;}.grid{display:flex;justify-content:center;gap:45px;margin-top:5px;transform:translateX(55px);}.option{width:140px;height:140px;display:flex;align-items:center;justify-content:center;}.option img{width:120px;height:120px;object-fit:contain;}</style></head><body><h1>Find: MOUTH</h1><p>Touch mouth.</p><div class='grid'><div class='option'><img src='/static/user_assets/images/mouth.png'></div><div class='option'><img src='/static/user_assets/images/nose.png'></div><div class='option'><img src='/static/user_assets/images/toes.png'></div></div></body></html>"
+            },
+            {
+              "type": "wait_for_web_input",
+              "prompt": "Try again: choose A, B, or C",
+              "options": ["A", "B", "C"],
+              "timeout": 60,
+              "outcomes": {
+                "A": "kahoot_q4_correct_second"
+              },
+              "default_outcome": "kahoot_q4_wrong_final"
+            },
+            {
+              "type": "branch",
+              "on": "outcome",
+              "cases": {
+                "kahoot_q4_correct_second": [
+                  {
+                    "type": "show_image",
+                    "src": "assets/images/green_check.png"
+                  },
+                  {
+                    "type": "play",
+                    "audio": "assets/audio/clap.wav"
+                  },
+                  {
+                    "type": "show_html",
+                    "html": "<video src='/static/user_assets/videos/growing_heart.mp4' autoplay muted playsinline style='max-width:100%;max-height:100%;'></video>"
+                  },
+                  {
+                    "type": "timed_wait",
+                    "duration_seconds": 2.5
+                  },
+                  {
+                    "type": "say",
+                    "character": "Narrator",
+                    "text": "Yes! You found mouth!"
+                  }
+                ],
+                "kahoot_q4_wrong_final": [
+                  {
+                    "type": "show_image",
+                    "src": "assets/images/mouth.png"
+                  },
+                  {
+                    "type": "say",
+                    "character": "Narrator",
+                    "text": "It was mouth. Good learning!"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "Great work, %student_name%! You finished the Learning Round."
+      }
+    ]
+  },
+  {
+    "id": "session2_kahoot",
+    "type": "narrative",
+    "thread": "session1",
+    "position": 6,
+    "characters": {
+      "Narrator": {
+        "voice_settings": {
+          "voice_id": "bD9maNcCuQQS75DGuteM"
+        }
+      },
+      "Ginger": {
+        "voice_settings": {
+          "voice_id": "FGY2WhTYpPnrIDTdsKH5"
+        }
+      },
+      "Koko": {
+        "voice_settings": {
+          "voice_id": "CwhRBWXzGAHq8TQ4Fs17"
+        }
+      },
+      "Simo": {
+        "voice_settings": {
+          "voice_id": "7p1Ofvcwsv7UBPoFNcpI"
+        }
+      }
+    },
+    "moves": [
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "Wow, %student_name%! You learned so much. Now it is time for the Challenge Round."
+      },
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "This time, you will try your best on the first answer. Your champion will cheer for you."
+      },
+      {
+        "type": "show_html",
+        "html": "<!DOCTYPE html><html><head><meta charset='UTF-8'><style>body{margin:0;background:black;color:white;font-family:Arial,sans-serif;text-align:center;overflow:hidden;}h1{font-size:38px;margin:20px 0 8px 0;}p{font-size:24px;margin:0 0 12px 0;}.grid{display:flex;justify-content:center;gap:38px;margin-top:18px;transform:translateX(40px);}.card{width:120px;height:150px;display:flex;flex-direction:column;align-items:center;justify-content:center;}.card img{width:95px;height:95px;object-fit:contain;}.name{font-size:18px;margin-top:6px;color:white;}</style></head><body><h1>Choose your champion</h1><p>Your champion will cheer for you.</p><div class='grid'><div class='card'><img src='/static/user_assets/images/ginger.png'><div class='name'>GINGER</div></div><div class='card'><img src='/static/user_assets/images/koko.png'><div class='name'>KOKO</div></div><div class='card'><img src='/static/user_assets/images/simo.png'><div class='name'>SIMO</div></div></div></body></html>"
+      },
+      {
+        "type": "wait_for_web_input",
+        "prompt": "Choose your champion",
+        "options": ["GINGER", "KOKO", "SIMO"],
+        "timeout": 120,
+        "outcomes": {
+          "GINGER": "champion_ginger",
+          "KOKO": "champion_koko",
+          "SIMO": "champion_simo"
+        },
+        "default_outcome": "champion_ginger"
+      },
+      {
+        "type": "branch",
+        "on": "outcome",
+        "cases": {
+          "champion_ginger": [
+            {
+              "type": "say",
+              "character": "Ginger",
+              "text": "I am your champion! Be brave and try your best."
+            }
+          ],
+          "champion_koko": [
+            {
+              "type": "say",
+              "character": "Koko",
+              "text": "I am your champion! Keep going and trust yourself."
+            }
+          ],
+          "champion_simo": [
+            {
+              "type": "say",
+              "character": "Simo",
+              "text": "I am your champion! Think carefully and do your best."
+            }
+          ]
+        }
+      },
+      {
+        "type": "show_html",
+        "html": "<div style='background:black;color:white;font-family:Arial;text-align:center;height:100%;padding-top:55px;box-sizing:border-box;'><h1 style='font-size:44px;'>Challenge Round</h1><p style='font-size:28px;'>Now there are four pictures.</p><p style='font-size:28px;'>Listen carefully.</p><p style='font-size:28px;'>Choose A, B, C, or D.</p></div>"
+      },
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "There are four pictures now. Listen carefully and choose A, B, C, or D."
+      },
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "Your champion is ready. Let's collect the final magic hearts!"
+      },
+      {
+        "type": "wait_for_web_input",
+        "prompt": "LET'S GO",
+        "options": ["LET'S GO"],
+        "timeout": 120,
+        "outcomes": {
+          "LET'S GO": "session2_kahoot_start"
+        },
+        "default_outcome": "session2_kahoot_start"
+      },
+
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "Challenge one. Find lips."
+      },
+      {
+        "type": "show_html",
+        "html": "<!DOCTYPE html><html><head><meta charset='UTF-8'><style>body{margin:0;background:black;color:white;font-family:Arial,sans-serif;text-align:center;overflow:hidden;}h1{font-size:42px;margin:18px 0 6px 0;}p{font-size:24px;margin:0 0 8px 0;}.grid{display:flex;justify-content:center;gap:28px;margin-top:5px;transform:translateX(35px);}.option{width:120px;height:130px;display:flex;align-items:center;justify-content:center;}.option img{width:105px;height:105px;object-fit:contain;}</style></head><body><h1>Find: LIPS</h1><p>Touch lips.</p><div class='grid'><div class='option'><img src='/static/user_assets/images/lips.png'></div><div class='option'><img src='/static/user_assets/images/nose.png'></div><div class='option'><img src='/static/user_assets/images/face.png'></div><div class='option'><img src='/static/user_assets/images/mouth.png'></div></div></body></html>"
+      },
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "Lips... lips... Touch lips."
+      },
+      {
+        "type": "wait_for_web_input",
+        "prompt": "Choose A, B, C, or D",
+        "options": ["A", "B", "C", "D"],
+        "timeout": 60,
+        "outcomes": {
+          "A": "kahoot_q5_correct"
+        },
+        "default_outcome": "kahoot_q5_wrong"
+      },
+      {
+        "type": "branch",
+        "on": "outcome",
+        "cases": {
+          "kahoot_q5_correct": [
+            {
+              "type": "show_image",
+              "src": "assets/images/green_check.png"
+            },
+            {
+              "type": "play",
+              "audio": "assets/audio/clap.wav"
+            },
+            {
+              "type": "show_html",
+              "html": "<video src='/static/user_assets/videos/growing_heart.mp4' autoplay muted playsinline style='max-width:100%;max-height:100%;'></video>"
+            },
+            {
+              "type": "timed_wait",
+              "duration_seconds": 2.5
+            },
+            {
+              "type": "say",
+              "character": "Narrator",
+              "text": "Yes! You collected a magic heart."
+            }
+          ],
+          "kahoot_q5_wrong": [
+            {
+              "type": "show_image",
+              "src": "assets/images/red_cross.png"
+            },
+            {
+              "type": "say",
+              "character": "Narrator",
+              "text": "Good try. The answer was lips. Your champion says, keep going!"
+            },
+            {
+              "type": "show_image",
+              "src": "assets/images/lips.png"
+            }
+          ]
+        }
+      },
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "Three challenge questions left."
+      },
+
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "Challenge two. Find toes."
+      },
+      {
+        "type": "show_html",
+        "html": "<!DOCTYPE html><html><head><meta charset='UTF-8'><style>body{margin:0;background:black;color:white;font-family:Arial,sans-serif;text-align:center;overflow:hidden;}h1{font-size:42px;margin:18px 0 6px 0;}p{font-size:24px;margin:0 0 8px 0;}.grid{display:flex;justify-content:center;gap:28px;margin-top:5px;transform:translateX(35px);}.option{width:120px;height:130px;display:flex;align-items:center;justify-content:center;}.option img{width:105px;height:105px;object-fit:contain;}</style></head><body><h1>Find: TOES</h1><p>Touch toes.</p><div class='grid'><div class='option'><img src='/static/user_assets/images/toes.png'></div><div class='option'><img src='/static/user_assets/images/nose.png'></div><div class='option'><img src='/static/user_assets/images/mouth.png'></div><div class='option'><img src='/static/user_assets/images/eye.png'></div></div></body></html>"
+      },
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "Toes... toes... Touch toes."
+      },
+      {
+        "type": "wait_for_web_input",
+        "prompt": "Choose A, B, C, or D",
+        "options": ["A", "B", "C", "D"],
+        "timeout": 60,
+        "outcomes": {
+          "A": "kahoot_q6_correct"
+        },
+        "default_outcome": "kahoot_q6_wrong"
+      },
+      {
+        "type": "branch",
+        "on": "outcome",
+        "cases": {
+          "kahoot_q6_correct": [
+            {
+              "type": "show_image",
+              "src": "assets/images/green_check.png"
+            },
+            {
+              "type": "play",
+              "audio": "assets/audio/clap.wav"
+            },
+            {
+              "type": "show_html",
+              "html": "<video src='/static/user_assets/videos/growing_heart.mp4' autoplay muted playsinline style='max-width:100%;max-height:100%;'></video>"
+            },
+            {
+              "type": "timed_wait",
+              "duration_seconds": 2.5
+            },
+            {
+              "type": "say",
+              "character": "Narrator",
+              "text": "Great job! Another magic heart."
+            }
+          ],
+          "kahoot_q6_wrong": [
+            {
+              "type": "show_image",
+              "src": "assets/images/red_cross.png"
+            },
+            {
+              "type": "say",
+              "character": "Narrator",
+              "text": "Good try. The answer was toes. Your champion says, you are still doing well!"
+            },
+            {
+              "type": "show_image",
+              "src": "assets/images/toes.png"
+            }
+          ]
+        }
+      },
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "Two challenge questions left."
+      },
+
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "Challenge three. Find face."
+      },
+      {
+        "type": "show_html",
+        "html": "<!DOCTYPE html><html><head><meta charset='UTF-8'><style>body{margin:0;background:black;color:white;font-family:Arial,sans-serif;text-align:center;overflow:hidden;}h1{font-size:42px;margin:18px 0 6px 0;}p{font-size:24px;margin:0 0 8px 0;}.grid{display:flex;justify-content:center;gap:28px;margin-top:5px;transform:translateX(35px);}.option{width:120px;height:130px;display:flex;align-items:center;justify-content:center;}.option img{width:105px;height:105px;object-fit:contain;}</style></head><body><h1>Find: FACE</h1><p>Touch face.</p><div class='grid'><div class='option'><img src='/static/user_assets/images/face.png'></div><div class='option'><img src='/static/user_assets/images/mouth.png'></div><div class='option'><img src='/static/user_assets/images/lips.png'></div><div class='option'><img src='/static/user_assets/images/ear.png'></div></div></body></html>"
+      },
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "Face... face... Touch face."
+      },
+      {
+        "type": "wait_for_web_input",
+        "prompt": "Choose A, B, C, or D",
+        "options": ["A", "B", "C", "D"],
+        "timeout": 60,
+        "outcomes": {
+          "A": "kahoot_q7_correct"
+        },
+        "default_outcome": "kahoot_q7_wrong"
+      },
+      {
+        "type": "branch",
+        "on": "outcome",
+        "cases": {
+          "kahoot_q7_correct": [
+            {
+              "type": "show_image",
+              "src": "assets/images/green_check.png"
+            },
+            {
+              "type": "play",
+              "audio": "assets/audio/clap.wav"
+            },
+            {
+              "type": "show_html",
+              "html": "<video src='/static/user_assets/videos/growing_heart.mp4' autoplay muted playsinline style='max-width:100%;max-height:100%;'></video>"
+            },
+            {
+              "type": "timed_wait",
+              "duration_seconds": 2.5
+            },
+            {
+              "type": "say",
+              "character": "Narrator",
+              "text": "Excellent! Your champion is cheering for you."
+            }
+          ],
+          "kahoot_q7_wrong": [
+            {
+              "type": "show_image",
+              "src": "assets/images/red_cross.png"
+            },
+            {
+              "type": "say",
+              "character": "Narrator",
+              "text": "Good try. The answer was face. Your champion says, almost there!"
+            },
+            {
+              "type": "show_image",
+              "src": "assets/images/face.png"
+            }
+          ]
+        }
+      },
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "One final challenge question."
+      },
+
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "Final challenge. Find ear."
+      },
+      {
+        "type": "show_html",
+        "html": "<!DOCTYPE html><html><head><meta charset='UTF-8'><style>body{margin:0;background:black;color:white;font-family:Arial,sans-serif;text-align:center;overflow:hidden;}h1{font-size:42px;margin:18px 0 6px 0;}p{font-size:24px;margin:0 0 8px 0;}.grid{display:flex;justify-content:center;gap:28px;margin-top:5px;transform:translateX(35px);}.option{width:120px;height:130px;display:flex;align-items:center;justify-content:center;}.option img{width:105px;height:105px;object-fit:contain;}</style></head><body><h1>Find: EAR</h1><p>Touch ear.</p><div class='grid'><div class='option'><img src='/static/user_assets/images/ear.png'></div><div class='option'><img src='/static/user_assets/images/eye.png'></div><div class='option'><img src='/static/user_assets/images/mouth.png'></div><div class='option'><img src='/static/user_assets/images/nose.png'></div></div></body></html>"
+      },
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "Ear... ear... Touch ear."
+      },
+      {
+        "type": "wait_for_web_input",
+        "prompt": "Choose A, B, C, or D",
+        "options": ["A", "B", "C", "D"],
+        "timeout": 60,
+        "outcomes": {
+          "A": "kahoot_q8_correct"
+        },
+        "default_outcome": "kahoot_q8_wrong"
+      },
+      {
+        "type": "branch",
+        "on": "outcome",
+        "cases": {
+          "kahoot_q8_correct": [
+            {
+              "type": "show_image",
+              "src": "assets/images/green_check.png"
+            },
+            {
+              "type": "play",
+              "audio": "assets/audio/clap.wav"
+            },
+            {
+              "type": "show_html",
+              "html": "<video src='/static/user_assets/videos/growing_heart.mp4' autoplay muted playsinline style='max-width:100%;max-height:100%;'></video>"
+            },
+            {
+              "type": "timed_wait",
+              "duration_seconds": 2.5
+            },
+            {
+              "type": "say",
+              "character": "Narrator",
+              "text": "Amazing! You finished the final challenge."
+            }
+          ],
+          "kahoot_q8_wrong": [
+            {
+              "type": "show_image",
+              "src": "assets/images/red_cross.png"
+            },
+            {
+              "type": "say",
+              "character": "Narrator",
+              "text": "Good try. The answer was ear. Your champion says, you finished bravely!"
+            },
+            {
+              "type": "show_image",
+              "src": "assets/images/ear.png"
+            }
+          ]
+        }
+      },
+
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "Great work, %student_name%! You finished the Challenge Round."
+      },
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "Amazing! You earned your magic hearts."
+      }
+    ]
+  },
+  {
+    "id": "session1_do_it_fast",
+    "type": "narrative",
+    "thread": "session1",
+    "position": 7,
+    "characters": {
+      "Narrator": {
+        "voice_settings": {
+          "voice_id": "bD9maNcCuQQS75DGuteM"
+        }
+      },
+      "Ginger": {
+        "voice_settings": {
+          "voice_id": "FGY2WhTYpPnrIDTdsKH5"
+        }
+      },
+      "Torob": {
+        "voice_settings": {
+          "voice_id": "IKne3meq5aSn9XLyUdCD"
+        }
+      },
+      "Jojo": {
+        "voice_settings": {
+          "voice_id": "yO6w2xlECAQRFP6pX7Hw"
+        }
+      },
+      "Shila": {
+        "voice_settings": {
+          "voice_id": "EXAVITQu4vr4xnSDxMaL"
+        }
+      },
+      "Koko": {
+        "voice_settings": {
+          "voice_id": "CwhRBWXzGAHq8TQ4Fs17"
+        }
+      },
+      "Simo": {
+        "voice_settings": {
+          "voice_id": "7p1Ofvcwsv7UBPoFNcpI"
+        }
+      }
+    },
+    "moves": [
+      {
+        "type": "show_html",
+        "html": "<!DOCTYPE html><html><head><meta charset='UTF-8'><style>body{margin:0;background:black;color:white;font-family:Arial,sans-serif;text-align:center;overflow:hidden;}h1{font-size:42px;margin-top:42px;margin-bottom:20px;}p{font-size:27px;line-height:1.35;margin:12px 55px;}</style></head><body><h1>Do It Fast!</h1><p>Listen to the robot.</p><p>Touch the body part as fast as you can.</p><p>Then the picture will appear.</p><p>Your helper will cheer for you.</p></body></html>"
+      },
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "Now it is time for Do It Fast. Listen carefully. Touch the body part as fast as you can. Then the picture will appear."
+      },
+      {
+        "type": "wait_for_web_input",
+        "prompt": "START",
+        "options": ["START"],
+        "timeout": 120,
+        "outcomes": {
+          "START": "do_it_fast_start"
+        },
+        "default_outcome": "do_it_fast_start"
+      },
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "Before we start, choose a friend to help you in the fast game."
+      },
+      {
+        "type": "show_html",
+        "html": "<!DOCTYPE html><html><head><meta charset='UTF-8'><style>body{margin:0;background:black;color:white;font-family:Arial,sans-serif;text-align:center;overflow:hidden;}h1{font-size:38px;margin:18px 0 8px 0;}p{font-size:24px;margin:0 0 10px 0;}.grid{display:flex;justify-content:center;gap:18px;margin-top:8px;transform:translateX(35px);}.card{width:88px;height:120px;display:flex;flex-direction:column;align-items:center;justify-content:center;}.card img{width:78px;height:78px;object-fit:contain;}.name{font-size:15px;margin-top:5px;color:white;}</style></head><body><h1>Choose your helper</h1><p>Who will play with you?</p><div class='grid'><div class='card'><img src='/static/user_assets/images/ginger.png'><div class='name'>GINGER</div></div><div class='card'><img src='/static/user_assets/images/torob.png'><div class='name'>TOROB</div></div><div class='card'><img src='/static/user_assets/images/jojo.png'><div class='name'>JOJO</div></div><div class='card'><img src='/static/user_assets/images/shila.png'><div class='name'>SHILA</div></div><div class='card'><img src='/static/user_assets/images/koko.png'><div class='name'>KOKO</div></div><div class='card'><img src='/static/user_assets/images/simo.png'><div class='name'>SIMO</div></div></body></html>"
+      },
+      {
+        "type": "wait_for_web_input",
+        "prompt": "Choose your helper",
+        "options": ["GINGER", "TOROB", "JOJO", "SHILA", "KOKO", "SIMO"],
+        "timeout": 120,
+        "outcomes": {
+          "GINGER": "helper_ginger",
+          "TOROB": "helper_torob",
+          "JOJO": "helper_jojo",
+          "SHILA": "helper_shila",
+          "KOKO": "helper_koko",
+          "SIMO": "helper_simo"
+        },
+        "default_outcome": "helper_ginger"
+      },
+      {
+        "type": "branch",
+        "on": "outcome",
+        "cases": {
+          "helper_ginger": [{ "type": "say", "character": "Ginger", "text": "I will help you! Let us go fast!" }],
+          "helper_torob": [{ "type": "say", "character": "Torob", "text": "I will help you! Let us go fast!" }],
+          "helper_jojo": [{ "type": "say", "character": "Jojo", "text": "I will help you! Let us go fast!" }],
+          "helper_shila": [{ "type": "say", "character": "Shila", "text": "I will help you! Let us go fast!" }],
+          "helper_koko": [{ "type": "say", "character": "Koko", "text": "I will help you! Let us go fast!" }],
+          "helper_simo": [{ "type": "say", "character": "Simo", "text": "I will help you! Let us go fast!" }]
+        }
+        
+      },
+      {
+        "type": "play",
+        "audio": "assets/audio/cheerful_ping.wav"
+      },
+      {
+        "type": "show_html",
+        "html": "<!DOCTYPE html><html><body style='margin:0;background:black;color:white;font-family:Arial,sans-serif;text-align:center;overflow:hidden;'><h1 style='font-size:46px;margin-top:85px;'>Touch your eyes!</h1><p style='font-size:32px;'>Quick quick!</p></body></html>"
+      },
+      { "type": "say", "character": "Narrator", "text": "Touch your eyes fast!" },
+      { "type": "timed_wait", "duration_seconds": 5 },
+      { "type": "show_image", "src": "assets/images/eye.png" },
+      { "type": "say", "character": "Narrator", "text": "Yes! Eyes!" },
+
+      {
+        "type": "show_html",
+        "html": "<!DOCTYPE html><html><body style='margin:0;background:black;color:white;font-family:Arial,sans-serif;text-align:center;overflow:hidden;'><h1 style='font-size:46px;margin-top:85px;'>Touch your ears!</h1><p style='font-size:32px;'>Quick quick!</p></body></html>"
+      },
+      { "type": "say", "character": "Narrator", "text": "Touch your ears fast!" },
+      { "type": "timed_wait", "duration_seconds": 5 },
+      { "type": "show_image", "src": "assets/images/ear.png" },
+      { "type": "say", "character": "Narrator", "text": "Great! Ears!" },
+      {
+        "type": "play",
+        "audio": "assets/audio/cheerful_ping.wav"
+      },
+      {
+        "type": "branch",
+        "on": "outcome",
+        "cases": {
+          "helper_ginger": [{ "type": "say", "character": "Ginger", "text": "You are very fast!" }],
+          "helper_torob": [{ "type": "say", "character": "Torob", "text": "You are very fast!" }],
+          "helper_jojo": [{ "type": "say", "character": "Jojo", "text": "You are very fast!" }],
+          "helper_shila": [{ "type": "say", "character": "Shila", "text": "You are very fast!" }],
+          "helper_koko": [{ "type": "say", "character": "Koko", "text": "You are very fast!" }],
+          "helper_simo": [{ "type": "say", "character": "Simo", "text": "You are very fast!" }]
+        }
+      },
+
+      {
+        "type": "show_html",
+        "html": "<!DOCTYPE html><html><body style='margin:0;background:black;color:white;font-family:Arial,sans-serif;text-align:center;overflow:hidden;'><h1 style='font-size:46px;margin-top:85px;'>Touch your nose!</h1><p style='font-size:32px;'>Quick quick!</p></body></html>"
+      },
+      { "type": "say", "character": "Narrator", "text": "Touch your nose fast!" },
+      { "type": "timed_wait", "duration_seconds": 5 },
+      { "type": "show_image", "src": "assets/images/nose.png" },
+      { "type": "say", "character": "Narrator", "text": "Good job! Nose!" },
+
+      {
+        "type": "show_html",
+        "html": "<!DOCTYPE html><html><body style='margin:0;background:black;color:white;font-family:Arial,sans-serif;text-align:center;overflow:hidden;'><h1 style='font-size:46px;margin-top:85px;'>Touch your lips!</h1><p style='font-size:32px;'>Quick quick!</p></body></html>"
+      },
+      { "type": "say", "character": "Narrator", "text": "Touch your lips fast!" },
+      { "type": "timed_wait", "duration_seconds": 5 },
+      { "type": "show_image", "src": "assets/images/lips.png" },
+      { "type": "say", "character": "Narrator", "text": "Perfect! Lips!" },
+
+      {
+        "type": "branch",
+        "on": "outcome",
+        "cases": {
+          "helper_ginger": [{ "type": "say", "character": "Ginger", "text": "Wow! Keep going!" }],
+          "helper_torob": [{ "type": "say", "character": "Torob", "text": "Wow! Keep going!" }],
+          "helper_jojo": [{ "type": "say", "character": "Jojo", "text": "Wow! Keep going!" }],
+          "helper_shila": [{ "type": "say", "character": "Shila", "text": "Wow! Keep going!" }],
+          "helper_koko": [{ "type": "say", "character": "Koko", "text": "Wow! Keep going!" }],
+          "helper_simo": [{ "type": "say", "character": "Simo", "text": "Wow! Keep going!" }]
+        }
+      },
+
+      {
+        "type": "show_html",
+        "html": "<!DOCTYPE html><html><body style='margin:0;background:black;color:white;font-family:Arial,sans-serif;text-align:center;overflow:hidden;'><h1 style='font-size:46px;margin-top:85px;'>Touch your head!</h1><p style='font-size:32px;'>Quick quick!</p></body></html>"
+      },
+      { "type": "say", "character": "Narrator", "text": "Touch your head fast!" },
+      { "type": "timed_wait", "duration_seconds": 5 },
+      { "type": "show_image", "src": "assets/images/head.png" },
+      { "type": "say", "character": "Narrator", "text": "Nice! Head!" },
+
+      {
+        "type": "show_html",
+        "html": "<!DOCTYPE html><html><body style='margin:0;background:black;color:white;font-family:Arial,sans-serif;text-align:center;overflow:hidden;'><h1 style='font-size:46px;margin-top:85px;'>Touch your face!</h1><p style='font-size:32px;'>Quick quick!</p></body></html>"
+      },
+      { "type": "say", "character": "Narrator", "text": "Touch your face fast!" },
+      { "type": "timed_wait", "duration_seconds": 5 },
+      { "type": "show_image", "src": "assets/images/face.png" },
+      { "type": "say", "character": "Narrator", "text": "Amazing! Face!" },
+      {
+        "type": "play",
+        "audio": "assets/audio/cheerful_ping.wav"
+      },
+      {
+        "type": "branch",
+        "on": "outcome",
+        "cases": {
+          "helper_ginger": [{ "type": "say", "character": "Ginger", "text": "You are almost at the magic password!" }],
+          "helper_torob": [{ "type": "say", "character": "Torob", "text": "You are almost at the magic password!" }],
+          "helper_jojo": [{ "type": "say", "character": "Jojo", "text": "You are almost at the magic password!" }],
+          "helper_shila": [{ "type": "say", "character": "Shila", "text": "You are almost at the magic password!" }],
+          "helper_koko": [{ "type": "say", "character": "Koko", "text": "You are almost at the magic password!" }],
+          "helper_simo": [{ "type": "say", "character": "Simo", "text": "You are almost at the magic password!" }]
+        }
+      },
+
+      {
+        "type": "show_html",
+        "html": "<!DOCTYPE html><html><body style='margin:0;background:black;color:white;font-family:Arial,sans-serif;text-align:center;overflow:hidden;'><h1 style='font-size:46px;margin-top:85px;'>Touch your shoulder!</h1><p style='font-size:32px;'>Final one!</p></body></html>"
+      },
+      { "type": "say", "character": "Narrator", "text": "Touch your shoulder fast!" },
+      { "type": "timed_wait", "duration_seconds": 5 },
+      { "type": "show_image", "src": "assets/images/shoulder.png" },
+      {
+        "type": "play",
+        "audio": "assets/audio/gasp.wav"
+      },
+      {
+        "type": "play",
+        "audio": "assets/audio/sparkle.wav"
+      },
+      { "type": "say", "character": "Narrator", "text": "Wonderful! Shoulder!" },
+
+      {
+        "type": "branch",
+        "on": "outcome",
+        "cases": {
+          "helper_ginger": [{ "type": "say", "character": "Ginger", "text": "Your magic password is Shoulder. Remember it for next time!" }],
+          "helper_torob": [{ "type": "say", "character": "Torob", "text": "Your magic password is Shoulder. Remember it for next time!" }],
+          "helper_jojo": [{ "type": "say", "character": "Jojo", "text": "Your magic password is Shoulder. Remember it for next time!" }],
+          "helper_shila": [{ "type": "say", "character": "Shila", "text": "Your magic password is Shoulder. Remember it for next time!" }],
+          "helper_koko": [{ "type": "say", "character": "Koko", "text": "Your magic password is Shoulder. Remember it for next time!" }],
+          "helper_simo": [{ "type": "say", "character": "Simo", "text": "Your magic password is Shoulder. Remember it for next time!" }]
+        }
+      },
+      {
+        "type": "show_image",
+        "src": "assets/images/shoulder.png"
+      },
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "Keep the password secret until next time."
+      },
+      {
+        "type": "timed_wait",
+        "duration_seconds": 1.5
+      },
+      {
+        "type": "say",
+        "character": "Narrator",
+        "text": "Great work today, %student_name%. Goodbye!"
+      }
+    ]
+  }
+]

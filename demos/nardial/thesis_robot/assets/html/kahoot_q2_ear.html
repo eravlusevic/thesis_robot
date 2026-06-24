@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body {
+      margin: 0;
+      background: black;
+      color: white;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      overflow: hidden;
+    }
+
+    h1 {
+      font-size: 42px;
+      margin: 18px 0 6px 0;
+    }
+
+    p {
+      font-size: 24px;
+      margin: 0 0 8px 0;
+    }
+
+    .grid {
+      display: flex;
+      justify-content: center;
+      gap: 45px;
+      margin-top: 5px;
+      transform: translateX(55px);
+    }
+
+    .option {
+      width: 140px;
+      height: 140px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .option img {
+      width: 120px;
+      height: 120px;
+      object-fit: contain;
+    }
+
+    .debug {
+      color: red;
+      font-size: 16px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Find: EAR</h1>
+  <p>Touch ear.</p>
+
+  <div class="grid">
+    <div class="option">
+      <img src="/static/user_assets/images/ear.png" onerror="this.outerHTML='<div class=debug>EAR NOT FOUND</div>';">
+    </div>
+
+    <div class="option">
+      <img src="/static/user_assets/images/eye.png" onerror="this.outerHTML='<div class=debug>EYE NOT FOUND</div>';">
+    </div>
+
+    <div class="option">
+      <img src="/static/user_assets/images/lips.png" onerror="this.outerHTML='<div class=debug>LIPS NOT FOUND</div>';">
+    </div>
+  </div>
+</body>
+</html>
