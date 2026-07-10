@@ -39,7 +39,7 @@ if __name__ == "__main__":
     # 2. SET UP PEPPER TABLET / SCREEN
     # =========================
 
-    host_ip = "10.0.0.197"
+    host_ip = "10.0.0.218"
     port = 5000
 
     assets_root = (Path(__file__).parent / "assets").resolve()
@@ -66,7 +66,7 @@ if __name__ == "__main__":
     # 3. CONFIGURE GOOGLE TTS
     # =========================
 
-    ELEVENLABS_API_KEY = os.getenv("ELEVENLABS_API_KEY", "YOUR_API_KEY_HERE")
+    ELEVENLABS_API_KEY="sk_43c8ad64889c9b155004c6cab07ca23e999bd8cda6f0a491"
 
     tts = ElevenLabsTTSProvider(
         conf=ElevenLabsTTSConf(
@@ -74,7 +74,7 @@ if __name__ == "__main__":
             voice_id="bD9maNcCuQQS75DGuteM",
             model_id="eleven_flash_v2_5",
             sample_rate=22050,
-            default_mode="ws",
+            default_mode="batch",
         ),
         device=device,
     )
@@ -96,11 +96,10 @@ if __name__ == "__main__":
         "welcome_and_name",
         "session1_story_intro",
         "session1_qna_practice",
+        "session1_meet_remaining_friends",
         "session1_kahoot",
         "session2_kahoot",
         "session1_do_it_fast"
-        # "session1_goodbye",
-        # "session2_memory_intro"
     ]
 
     participant_id = "2"
