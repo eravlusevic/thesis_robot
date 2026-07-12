@@ -934,10 +934,6 @@
         "type": "say",
         "character": "Narrator",
         "text": "Now all six friends are here! Next, we will play the picture game."
-      },
-      {
-        "type": "timed_wait",
-        "duration_seconds": 3
       }
     ]
   },

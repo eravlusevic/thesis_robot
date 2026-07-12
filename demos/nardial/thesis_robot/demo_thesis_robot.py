@@ -65,7 +65,7 @@ if __name__ == "__main__":
     # 3. CONFIGURE ELEVENLABS TTS
     # =========================
 
-    ELEVENLABS_API_KEY = os.getenv("ELEVENLABS_API_KEY", "YOUR_API_KEY_HERE")
+    ELEVENLABS_API_KEY="sk_43c8ad64889c9b155004c6cab07ca23e999bd8cda6f0a491"
 
     tts = ElevenLabsTTSProvider(
         conf=ElevenLabsTTSConf(
@@ -90,7 +90,6 @@ if __name__ == "__main__":
     # =========================
     # 4. SESSION AGENDA
     # =========================
-    #"session1_story_intro",
 
     session_agenda = [
         "welcome_and_name",
@@ -100,8 +99,6 @@ if __name__ == "__main__":
         "session1_kahoot",
         "session2_kahoot",
         "session1_do_it_fast"
-        #"session1_goodbye",
-        #"session2_memory_intro"
     ]
 
     participant_id = "999"
