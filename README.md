@@ -206,15 +206,3 @@ Before starting a new evaluation session, check that the intended participant ID
 * User responses are provided through predefined input options rather than unrestricted speech recognition.
 * Some services may need to be restarted if the application does not connect correctly.
 * Redis may fail to start if port `6379` is already in use.
-
-## Thesis Context
-
-This system was developed as part of a Bachelor's thesis investigating the design, implementation, and expert evaluation of an interactive storytelling system for English vocabulary learning with a social robot.
-
-The expert evaluation focuses on:
-
-* Engagement
-* Usability
-* Personalization
-* Interaction quality
-* Educational value
