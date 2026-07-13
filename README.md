@@ -129,6 +129,9 @@ Run the desktop application:
 ```bash
 python -u demo_thesis_robot.py
 ```
+After the application starts, open the following address in a web browser:
+
+http://localhost:5000/
 
 The desktop version uses the computer's speakers and displays the visual content on the computer.
 
