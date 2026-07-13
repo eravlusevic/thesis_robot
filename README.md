@@ -207,5 +207,5 @@ Before starting a new evaluation session, check that the intended participant ID
 * Pepper's tablet may occasionally require the application to be restarted.
 * The interaction follows predefined rule-based dialogue paths.
 * User responses are provided through predefined input options rather than unrestricted speech recognition.
-* Some services may need to be restarted if the application does not connect correctly.
+* Some services may need to be restarted if the application does not connect correctly(especially webserver and elevenlabs).
 * Redis may fail to start if port `6379` is already in use.
